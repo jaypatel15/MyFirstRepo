@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
+    int i, j, sum;
 
-    // Prompt the user to enter the first number
+
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%d", &i);
 
-    // Prompt the user to enter the second number
+
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &j);
 
     // Calculate the sum
-    sum = num1 + num2;
+    sum = i + j;
 
     // Display the result
-    printf("The sum of %d and %d is %d\n", num1, num2, sum);
+    printf("The sum of %d and %d is %d\n", i, j, sum);
 
     return 0;
 }
