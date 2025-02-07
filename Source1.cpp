@@ -2,7 +2,7 @@
 
 int main() {
     int i, j, sum;
-
+jaypatel
 
     printf("Enter the first number: ");
     scanf("%d", &i);
